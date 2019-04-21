@@ -1,0 +1,306 @@
+﻿//日志信息表
+create external table if not exists logAnalysis.loginfo(
+ip String,
+district String,
+sessionid String,
+datetime String,
+daystr String,
+url String,
+status String,
+sentBytes String,
+referal String,
+userAgent String)
+partitioned by(
+year int,
+month int,
+day int
+)
+row format delimited
+fields terminated by '\t'
+stored as parquet
+location '/user/hive/warehouse/logAnalysis/loginfo';
+
+------------------------------------------------------------
+
+create external table if not exists logAnalysis.loginfo2(
+ip String,
+district String,
+sessionid String,
+datetime String,
+datstr String,
+columnName String,
+refererHost String,
+deviceType String)
+partitioned by(
+year int,
+month int,
+day int)
+row format delimited
+fields terminated by '\t'
+stored as parquet
+location '/user/hive/warehouse/logAnalysis/loginfo2';
+
+------------------------------------------------------------------
+
+
+
+
+------------------------------------------------------------------
+
+//地区信息表
+create table if not exists logAnalysis.districtInfo(
+districtId int,
+districtName String)
+row format delimited
+fields terminated by '\t';
+
+//	district.dat
+1	安徽
+2	广东
+3	河南
+4	江苏
+5	宁夏
+6	上海
+7	新疆
+8	北京
+9	甘肃
+10	湖北
+11	黑龙江
+12	江西
+13	青海	
+14	陕西
+15	西藏
+16	重庆
+
+//加载数据
+load data local inpath '/home/liushuai/data/district.dat' overwrite into table logAnalysis.districtInfo;
+
+select * from districtInfo;
+
+------------------------------------------------------------------
+
+
+//栏目信息表
+create table if not exists logAnalysis.columnInfo(
+columnId int,
+columnName String,
+keyword String)
+row format delimited
+fields terminated by '\t';
+
+//	column.dat
+1	聚焦	focus 
+2	民生	news
+3	人文	cul
+4	舆情	yuqing
+5	财经	biz
+6	汽车	auto
+7	时尚	fashion
+8	情感	emo
+9	娱乐	ent
+10	图片	pp
+11	投资	wyf
+12	亲子	baby
+13	星工厂	star
+
+//加载数据
+load data local inpath '/home/liushuai/data/column.dat' overwrite into table logAnalysis.columnInfo;
+
+
+select * from columninfo;
+
+------------------------------------------------------------------
+
+
+//设备类型信息表
+create table if not exists logAnalysis.deviceTypeInfo(
+deviceTypeId int,
+deviceTypeName String)
+row format delimited
+fields terminated by '\t';
+ 
+ 
+// 	deviceType.dat
+1	移动端
+2	PC端
+3	域名监控
+4	unknown
+
+//加载数据
+load data local inpath '/home/liushuai/data/deviceType.dat' overwrite into table logAnalysis.deviceTypeInfo;
+
+select * from deviceTypeinfo;
+
+---------------------------------------------------------------------
+
+
+//来源信息表
+create table if not exists refererHostInfo(
+refererHostId int,
+url String ,
+host String)
+row format delimited
+fields terminated by '\t';
+
+
+// refererHost.dat
+1	-	自主导航
+2	angularjs.cn	技术网站
+3	blog.chinaunix.net	技术网站
+4	blog.csdn.net	csdn
+5	blog.fens.me	粉丝
+6	cn.bing.com	必应
+7	cnodejs.org	技术网站
+8	cnodejs.org:8080	技术网站
+9	comp.freemined.com	技术网站
+10	cos.name	技术网站
+11	disqus.com	技术网站
+12	f.dataguru.cn	技术网站
+13	fens.me	粉丝
+14	h2w.iask.cn	技术网站
+15	image.baidu.com	百度
+16	it.dataguru.cn	技术网站
+17	leonarding.com	技术网站
+18	michaelhsu.tw	技术网站
+19	mo.wanzn.cn	技术网站
+20	mp.weixin.qq.com	技术网站
+21	r.dataguru.cn	技术网站
+22	r.mail.qq.com	qq邮件
+23	redir.yy.duowan.com	技术网站
+24	tongji.baidu.com	百度
+25	weibo.com	微博
+26	whois.domaintools.com	技术网站
+27	www.100rmb.info	技术网站
+28	www.angularjs.cn	技术网站
+29	www.baidu.com	百度
+30	www.dataguru.cn	技术网站
+31	www.fens.me	粉丝
+32	www.google.co.th	谷歌
+33	www.google.com	谷歌
+34	www.google.com.hk	谷歌
+35	www.google.com.tw	谷歌
+36	www.google.fr	谷歌
+37	www.itpub.net	itpub
+38	www.leonarding.com	技术网站
+39	www.linkedin.com	技术网站
+40	www.ruanyifeng.com	技术网站
+41	www.w3c.com.cn	技术网站
+42	www.weibo.com	微博
+
+//加载数据
+load data local inpath '/home/liushuai/data/refererHost.dat' overwrite into table logAnalysis.refererHostInfo;
+
+ select * from refererHostinfo;
+ 
+----------------------------------------------------------------
+ 
+// 时间日期表 
+create table if not exists dateTimeInfo(
+timeid String,
+year String,
+month String,
+day String,
+hour String,
+minute String)
+row format delimited
+fields terminated by '\t'; 
+
+//样例
+201701092340	2017	01	09	23	40
+201701092341	2017	01	09	23	41
+201701092342	2017	01	09	23	42
+201701092343	2017	01	09	23	43
+201701092344	2017	01	09	23	44
+201701092345	2017	01	09	23	45
+201701092346	2017	01	09	23	46
+201701092347	2017	01	09	23	47
+201701092348	2017	01	09	23	48
+201701092349	2017	01	09	23	49
+201701092350	2017	01	09	23	50
+201701092351	2017	01	09	23	51
+201701092352	2017	01	09	23	52
+201701092353	2017	01	09	23	53
+201701092354	2017	01	09	23	54
+201701092355	2017	01	09	23	55
+201701092356	2017	01	09	23	56
+201701092357	2017	01	09	23	57
+201701092358	2017	01	09	23	58
+201701092359	2017	01	09	23	59
+ 
+ 
+//加载数据
+load data local inpath '/home/liushuai/data/time.dat' overwrite into table logAnalysis.dateTimeInfo;
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+----------------------------------------------------------------
+//no useful
+create table if not exists visitInfo(
+timeid String,		//时间
+districtid int,		//地区
+refererhostid int,	//来源
+devicetypeid int,	//设备
+columnid int,  		//栏目
+pv int)
+row format delimited
+fields terminated by '\t';  
+
+//pv维度表 天（事实表）
+create table if not exists pvVdoingDayInfo(
+timeid String,
+districtid int,
+refererhostid int,
+devicetypeid int,
+columnid int,
+pv int)
+row format delimited
+fields terminated by '\t';
+ 
+//pv维度表 小时（事实表）
+create table if not exists pvVdoingHourInfo(
+timeid String,
+districtid int,
+refererhostid int,
+devicetypeid int,
+columnid int,
+pv int)
+row format delimited
+fields terminated by '\t';
+
+
+------------------------------------
+//独立ip维度表（事实表）
+create table if not exists ipVdoingInfo(
+timeid String,
+ip String,
+districtid int,
+refererhostid int,
+devicetypeid int,
+columnid int)
+row format delimited
+fields terminated by '\t';
+
+
+ ------------------------------------
+//uv维度表（事实表）
+create table if not exists uvVdoingInfo(
+timeid String,
+sessionid String,
+districtid int,
+refererhostid int,
+devicetypeid int,
+columnid int,
+uv int
+)
+row format delimited
+fields terminated by '\t';
+ 
+ 

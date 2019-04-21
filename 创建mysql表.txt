@@ -1,0 +1,109 @@
+create database loganalysis;
+SET NAMES utf8mb4;
+SET FOREIGN_KEY_CHECKS = 0;
+
+-- ----------------------------
+-- Table structure for columnInfo
+-- ----------------------------
+DROP TABLE IF EXISTS `columnInfo`;
+CREATE TABLE `columnInfo`  (
+  `columnId` int(11) DEFAULT NULL,
+  `columnName` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `keyword` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Table structure for dateTimeInfo
+-- ----------------------------
+DROP TABLE IF EXISTS `dateTimeInfo`;
+CREATE TABLE `dateTimeInfo`  (
+  `timeid` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `year` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `month` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `day` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `hour` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `minute` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Table structure for deviceTypeInfo
+-- ----------------------------
+DROP TABLE IF EXISTS `deviceTypeInfo`;
+CREATE TABLE `deviceTypeInfo`  (
+  `deviceTypeId` int(11) DEFAULT NULL,
+  `deviceTypeName` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Table structure for districtInfo
+-- ----------------------------
+DROP TABLE IF EXISTS `districtInfo`;
+CREATE TABLE `districtInfo`  (
+  `districtId` int(11) DEFAULT NULL,
+  `districtName` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Table structure for ipVdoingInfo
+-- ----------------------------
+DROP TABLE IF EXISTS `ipVdoingInfo`;
+CREATE TABLE `ipVdoingInfo`  (
+  `timeid` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `ip` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `districtid` int(11) DEFAULT NULL,
+  `refererhostid` int(11) DEFAULT NULL,
+  `devicetypeid` int(11) DEFAULT NULL,
+  `columnid` int(11) DEFAULT NULL
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Table structure for pvVdoingDayInfo
+-- ----------------------------
+DROP TABLE IF EXISTS `pvVdoingDayInfo`;
+CREATE TABLE `pvVdoingDayInfo`  (
+  `timeid` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `districtid` int(11) DEFAULT NULL,
+  `refererhostid` int(11) DEFAULT NULL,
+  `devicetypeid` int(11) DEFAULT NULL,
+  `columnid` int(11) DEFAULT NULL,
+  `pv` int(11) DEFAULT NULL
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Table structure for pvVdoingHourInfo
+-- ----------------------------
+DROP TABLE IF EXISTS `pvVdoingHourInfo`;
+CREATE TABLE `pvVdoingHourInfo`  (
+  `timeid` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `districtid` int(11) DEFAULT NULL,
+  `refererhostid` int(11) DEFAULT NULL,
+  `devicetypeid` int(11) DEFAULT NULL,
+  `columnid` int(11) DEFAULT NULL,
+  `pv` int(11) DEFAULT NULL
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Table structure for refererHostInfo
+-- ----------------------------
+DROP TABLE IF EXISTS `refererHostInfo`;
+CREATE TABLE `refererHostInfo`  (
+  `refererHostId` int(11) DEFAULT NULL,
+  `url` varchar(250) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `host` varchar(250) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Table structure for uvVdoingInfo
+-- ----------------------------
+DROP TABLE IF EXISTS `uvVdoingInfo`;
+CREATE TABLE `uvVdoingInfo`  (
+  `timeid` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `sessionid` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `districtid` int(11) DEFAULT NULL,
+  `refererhostid` int(11) DEFAULT NULL,
+  `devicetypeid` int(11) DEFAULT NULL,
+  `columnid` int(11) DEFAULT NULL,
+  `uv` int(11) DEFAULT NULL
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+SET FOREIGN_KEY_CHECKS = 1;

@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="logAnalysisProject:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8eb75899-0222-4fc3-b384-9c85ed734d52" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1200934246">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="2" />
+          <entry key="log" value="1" />
+          <entry key="scala" value="9" />
+          <entry key="sql" value="1" />
+          <entry key="txt" value="3" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="2" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="SQL" value="1" />
+          <entry key="Scala" value="9" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/sql/StaticticsIPByDay.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-528">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>123.</find>
+      <find>ip</find>
+      <find>123.112.18.63</find>
+      <find>logparse</find>
+      <find>ipv4ToLong</find>
+      <find>user</find>
+      <find>500</find>
+      <find>visithourinfo</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>pvVdoingHourInfo</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/streaming</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/scala/GetAddressByIp.java" />
+        <option value="$PROJECT_DIR$/src/test/scala/GetAddressByIp2.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/utils/ReadFile.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/DataTest.java" />
+        <option value="$PROJECT_DIR$/src/test/scala/ReadData.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/utils/UrlUtils.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/utils/IpUtils.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/aa.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/utils/FileUtils.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/utils/DataUtils.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/utils/LogAnalyze.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/testDDDD.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/testSparkSQL.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/testfile.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/log/WeblogDetail.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/DataUtils.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/FileUtils.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/utils/generateTime.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/utils/GenerateTimeUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/log/LogAnalysis4.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/log/StatisticsPVByHour.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/log/LogAnalysis3.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/log/PVVoing.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/log/UVVoing.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/log/LogAnalyze.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/log/PVVdoing.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/utils/LogUtils.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/log/LogAnalysis2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/log/StaticticsIPByDay.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/log/IPVdoing.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/log/UVVdoing.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/log/StatisticsPVByDay.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/logAnalysis/UVVdoing.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/utils/IpUtils.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/logAnalysis/StatisticsPVByDay.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/tmp/UVVdoing.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/tmp/scriptFile.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/logAnalysis/PVVdoing.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/tmp/PVVdoing.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/sql/IPVdoing.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/logAnalysis/LogAnalyze.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/sql/PVVdoing.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/sql/UVVdoing.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/logAnalysis/LogAnalysis2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/sql/StatisticsPVByDay.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/sql/StatisticsPVByHour.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/sql/StatisticsUVByDay.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/etl/LogAnalyze.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/streaming/OrderInfoUtils.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/streaming/GenerateOrderInfo.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="171" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="logAnalysisProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logAnalysisProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logAnalysisProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logAnalysisProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logAnalysisProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logAnalysisProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logAnalysisProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logAnalysisProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logAnalysisProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logAnalysisProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logAnalysisProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555653292679" />
+    <property name="last_opened_file_path" value="C:/Program Files (x86)/scala" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bluehonour.spark.log" />
+      <recent name="" />
+      <recent name="com.bluehonour.spark.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEAWorkspace\workspace1\logAnalysisProject\src\main\scala\com\bluehonour\spark\streaming" />
+      <recent name="$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/sql" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.OrderInfoUtils">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IPVdoing" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.bluehonour.spark.sql.IPVdoing" />
+      <module name="logAnalysisProject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bluehonour.spark.sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderInfoUtils" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.bluehonour.spark.streaming.OrderInfoUtils" />
+      <module name="logAnalysisProject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bluehonour.spark.streaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatisticsPVByDay" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.bluehonour.spark.sql.StatisticsPVByDay" />
+      <module name="logAnalysisProject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bluehonour.spark.sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatisticsPVByHour" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.bluehonour.spark.sql.StatisticsPVByHour" />
+      <module name="logAnalysisProject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bluehonour.spark.sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatisticsUVByDay" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.bluehonour.spark.sql.StatisticsUVByDay" />
+      <module name="logAnalysisProject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bluehonour.spark.sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.StatisticsPVByDay" />
+      <item itemvalue="Application.StatisticsPVByHour" />
+      <item itemvalue="Application.IPVdoing" />
+      <item itemvalue="Application.StatisticsUVByDay" />
+      <item itemvalue="Application.OrderInfoUtils" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OrderInfoUtils" />
+        <item itemvalue="Application.StatisticsUVByDay" />
+        <item itemvalue="Application.StatisticsPVByHour" />
+        <item itemvalue="Application.StatisticsPVByDay" />
+        <item itemvalue="Application.IPVdoing" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8eb75899-0222-4fc3-b384-9c85ed734d52" name="Default" comment="" />
+      <created>1551424031960</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551424031960</updated>
+      <workItem from="1555638889071" duration="4620000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4620000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Capture Tool" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.17627347" />
+      <window_info id="Structure" order="5" weight="0.25" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5046854" side_tool="true" weight="0.35511363" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.32374102" />
+      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3287483" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4953146" weight="0.09943182" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.36402878" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.3294964" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Palette&#9;" order="0" />
+      <window_info anchor="right" id="Maven Projects" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.24966533" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.11/2.2.0/spark-catalyst_2.11-2.2.0-sources.jar!/org/apache/spark/sql/Row.scala" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/Equals.scala" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/Serializable.scala" />
+    <entry file="file://$PROJECT_DIR$/src/test/scala/PatternTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/GetAddressByIp2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/utils/FileUtils.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/utils/DataUtils.scala" />
+    <entry file="file://$PROJECT_DIR$/src/test/scala/GetAddressByIp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="105" column="37" selection-start-line="105" selection-start-column="37" selection-end-line="105" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/FileUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/DataUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/testSparkSQL.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/testfile.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0-sources.jar!/org/apache/spark/sql/Dataset.scala" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0-sources.jar!/org/apache/spark/sql/SparkSession.scala" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.11/2.2.0/spark-catalyst_2.11-2.2.0-sources.jar!/org/apache/spark/sql/catalyst/analysis/Analyzer.scala" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.11/2.2.0/spark-catalyst_2.11-2.2.0-sources.jar!/org/apache/spark/sql/catalyst/trees/TreeNode.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/tmp/IPVdoing.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/tmp/StaticticsIPByDay.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/tmp/StatisticsPVByDay.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/tmp/StatisticsPVByHour.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/tmp/StatisticsUVByDay.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/tmp/scriptFile.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/tmp/UVVdoing.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/tmp/PVVdoing.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/sql/IPVdoing.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/sql/PVVdoing.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="96" column="23" lean-forward="true" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/sql/UVVdoing.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="95" column="20" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/sql/StatisticsUVByDay.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="84" column="21" lean-forward="true" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/sql/StatisticsPVByHour.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="100" column="3" lean-forward="true" selection-start-line="100" selection-start-column="3" selection-end-line="100" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/utils/GenerateTimeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/utils/IpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2373">
+          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/utils/LogUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3696">
+          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/tmp/StaticticsUVByHour.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/sql/StatisticsPVByDay.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2115">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/etl/LogAnalysis2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+          <folding>
+            <element signature="e#34#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/etl/LogAnalyze.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1342">
+          <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/streaming/OrderInfoUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding>
+            <element signature="e#40#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/streaming/GenerateOrderInfo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/streaming/KafkaDirectWithHBase.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/streaming/ProducerInfo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/streaming/sparkConsumer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/streaming/sparkHandleUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/日志分析数据.sql">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/创建mysql表.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1260" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/创建hive表.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2352" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derby.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqoop从hive导出到mysql的命令.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/sql/StaticticsUVByHour.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logAnalysisProject.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1764" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bluehonour/spark/sql/StaticticsIPByDay.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="artifact" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>logAnalysisProject:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.10.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>logAnalysisProject</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

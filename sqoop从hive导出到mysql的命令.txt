@@ -1,0 +1,17 @@
+./sqoop export --connect 'jdbc:mysql://master:3306/loganalysis?useUnicode=true&characterEncoding=utf-8' --username root --password liushuai --table districtInfo --export-dir '/user/hive/warehouse/loganalysis.db/districtinfo' --fields-terminated-by '\t'
+
+./sqoop export --connect 'jdbc:mysql://master:3306/loganalysis?useUnicode=true&characterEncoding=utf-8' --username root --password liushuai --table columnInfo --export-dir '/user/hive/warehouse/loganalysis.db/columninfo' --fields-terminated-by '\t'
+
+./sqoop export --connect 'jdbc:mysql://master:3306/loganalysis?useUnicode=true&characterEncoding=utf-8' --username root --password liushuai --table dateTimeInfo --export-dir '/user/hive/warehouse/loganalysis.db/datetimeinfo' --fields-terminated-by '\t'
+
+./sqoop export --connect 'jdbc:mysql://master:3306/loganalysis?useUnicode=true&characterEncoding=utf-8' --username root --password liushuai --table deviceTypeInfo --export-dir '/user/hive/warehouse/loganalysis.db/devicetypeinfo' --fields-terminated-by '\t'
+
+./sqoop export --connect 'jdbc:mysql://master:3306/loganalysis?useUnicode=true&characterEncoding=utf-8' --username root --password liushuai --table ipVdoingInfo --export-dir '/user/hive/warehouse/loganalysis.db/ipvdoinginfo' --fields-terminated-by '\t'
+
+./sqoop export --connect 'jdbc:mysql://master:3306/loganalysis?useUnicode=true&characterEncoding=utf-8' --username root --password liushuai --table pvVdoingDayInfo --export-dir '/user/hive/warehouse/loganalysis.db/pvvdoingdayinfo' --fields-terminated-by '\t'
+
+./sqoop export --connect 'jdbc:mysql://master:3306/loganalysis?useUnicode=true&characterEncoding=utf-8' --username root --password liushuai --table pvVdoingHourInfo --export-dir '/user/hive/warehouse/loganalysis.db/pvvdoinghourinfo' --fields-terminated-by '\t'
+
+./sqoop export --connect 'jdbc:mysql://master:3306/loganalysis?useUnicode=true&characterEncoding=utf-8' --username root --password liushuai --table refererHostInfo --export-dir '/user/hive/warehouse/loganalysis.db/refererhostinfo' --fields-terminated-by '\t'
+
+./sqoop export --connect 'jdbc:mysql://master:3306/loganalysis?useUnicode=true&characterEncoding=utf-8' --username root --password liushuai --table uvVdoingInfo --export-dir '/user/hive/warehouse/loganalysis.db/uvvdoinginfo' --fields-terminated-by '\t'
